@@ -45,4 +45,57 @@ INSERT INTO presidents VALUES (43, "George W. Bush", "Connecticut", "Republican"
 INSERT INTO presidents VALUES (44, "Barack Obama", "Hawaii", "Democratic", 2017);
 INSERT INTO presidents VALUES (45, "Donald Trump", "New York", "Republican", 2021);
 INSERT INTO presidents VALUES (46, "Joe Biden", "Pennsylvania", "Democratic", 2024);
-SELECT * FROM presidents;
+
+
+
+
+CREATE TABLE vice_presidents (id INTEGER PRIMARY KEY, name TEXT, birthplace TEXT, served_under TEXT);
+INSERT INTO vice_presidents VALUES (1, "John Adams", "Massachusetts", "George Washington");
+INSERT INTO vice_presidents VALUES (2, "Thomas Jefferson", "Virginia", "John Adams");
+INSERT INTO vice_presidents VALUES (3, "Aaron Burr", "New Jersey", "Thomas Jefferson");
+INSERT INTO vice_presidents VALUES (4, "George Clinton", "New York", "James Madison");
+INSERT INTO vice_presidents VALUES (5, "Elbridge Gerry", "Massachusetts", "James Madison");
+INSERT INTO vice_presidents VALUES (6, "Daniel D. Tompkins", "New York", "James Monroe");
+INSERT INTO vice_presidents VALUES (7, "John C. Calhoun", "South Carolina", "John Quincy Adams");
+INSERT INTO vice_presidents VALUES (8, "Martin Van Buren", "New York", "Andrew Jackson");
+INSERT INTO vice_presidents VALUES (9, "Richard M. Johnson", "Kentucky", "Martin Van Buren");
+INSERT INTO vice_presidents VALUES (10, "John Tyler", "Virginia", "William Henry Harrison");
+INSERT INTO vice_presidents VALUES (11, "George Mifflin Dallas", "Pennsylvania", "James K. Polk");
+INSERT INTO vice_presidents VALUES (12, "Millard Fillmore", "New York", "Zachary Taylor");
+INSERT INTO vice_presidents VALUES (13, "William Rufus de Vane King", "North Carolina", "Franklin Pierce");
+INSERT INTO vice_presidents VALUES (14, "John C. Breckinridge", "Kentucky", "James Buchanan");
+INSERT INTO vice_presidents VALUES (15, "Hannibal Hamlin", "Maine", "Abraham Lincoln");
+INSERT INTO vice_presidents VALUES (16, "Andrew Johnson", "North Carolina", "Abraham Lincoln");
+INSERT INTO vice_presidents VALUES (17, "Schuyler Colfax", "New York", "Ulysses S. Grant");
+INSERT INTO vice_presidents VALUES (18, "Henry Wilson", "New Hampshire", "Ulysses S. Grant");
+INSERT INTO vice_presidents VALUES (19, "William A. Wheeler", "New York", "Rutherford B. Hayes");
+INSERT INTO vice_presidents VALUES (20, "Chester Arthur", "Vermont", "James A. Garfield");
+INSERT INTO vice_presidents VALUES (21, "Thomas A. Hendricks", "Ohio", "Grover Cleveland");
+INSERT INTO vice_presidents VALUES (22, "Levi Morton", "Vermont", "Benjamin Harrison");
+INSERT INTO vice_presidents VALUES (23, "Adlai E. Stevenson", "Kentucky", "Grover Cleveland");
+INSERT INTO vice_presidents VALUES (24, "Garret A. Holbert", "New Jersey", "William McKinley");
+INSERT INTO vice_presidents VALUES (25, "Theodore Roosevelt", "New York", "William McKinley");
+INSERT INTO vice_presidents VALUES (26, "Charles Warren Fairbanks", "Ohio", "Theodore Roosevelt");
+INSERT INTO vice_presidents VALUES (27, "James Sherman", "New York", "William Taft Howard");
+INSERT INTO vice_presidents VALUES (28, "Thomas R. Marshall", "Indiana", "Woodrow Wilson");
+INSERT INTO vice_presidents VALUES (29, "Calvin Coolidge", "Vermont", "Warren G. Harding");
+INSERT INTO vice_presidents VALUES (30, "Charles G. Dawes", "Ohio", "Calvin Coolidge");
+INSERT INTO vice_presidents VALUES (31, "Charles Curtis", "Kansas", "Herbert Hoover");
+INSERT INTO vice_presidents VALUES (32, "John Nance Garner", "Texas", "Franklin D. Roosevelt");
+INSERT INTO vice_presidents VALUES (33, "Henry A. Wallace", "Iowa", "Franklin D. Roosevelt");
+INSERT INTO vice_presidents VALUES (34, "Harry S. Truman", "Missouri", "Franklin D. Roosevelt");
+INSERT INTO vice_presidents VALUES (35, "Alben W. Barkley", "Kentucky", "Harry S. Truman");
+INSERT INTO vice_presidents VALUES (36, "Richard M. Nixon", "California", "Dwight D. Eisenhower");
+INSERT INTO vice_presidents VALUES (37, "Lyndon B. Johnson", "Texas", "John F. Kennedy");
+INSERT INTO vice_presidents VALUES (38, "Hubert H. Humphrey", "South Dakota", "Lynson B. Johnson");
+INSERT INTO vice_presidents VALUES (39, "Spiro T. Agnew", "Maryland", "Richard M. Nixon");
+INSERT INTO vice_presidents VALUES (40, "Gerald R. Ford", "Nebraska", "Richard M. Nixon");
+INSERT INTO vice_presidents VALUES (41, "Nelson A. Rockefeller", "Maine", "Gerald R. Ford");
+INSERT INTO vice_presidents VALUES (42, "Walter F. Mondale", "Minnesota", "Jimmy Carter");
+INSERT INTO vice_presidents VALUES (43, "George Bush", "Massachusetts", "Ronald Reagan");
+INSERT INTO vice_presidents VALUES (44, "Dan Quayle", "Indiana", "George Bush");
+INSERT INTO vice_presidents VALUES (45, "Albert Gore", "Washington, DC", "Bill Clinton");
+INSERT INTO vice_presidents VALUES (46, "Dick Cheney", "Nebraska", "George W. Bush");
+INSERT INTO vice_presidents VALUES (47, "Joe Biden", "Pennsylvania", "Barack Obama");
+INSERT INTO vice_presidents VALUES (48, "Mike Pence", "Indiana", "Donald Trump");
+INSERT INTO vice_presidents VALUES (49, "Kamala Harris", "California", "Joe Biden");
