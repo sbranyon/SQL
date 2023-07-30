@@ -17,7 +17,7 @@ INSERT INTO presidents VALUES (15, "James Buchanan", "Pennsylvania", "Democratic
 INSERT INTO presidents VALUES (16, "Abraham Lincoln", "Kentucky", "Republican", 1865);
 INSERT INTO presidents VALUES (17, "Andrew Johnson", "North Carolina", "Democratic (Union)", 1869);
 INSERT INTO presidents VALUES (18, "Ulysses S. Grant", "Ohio", "Republican", 1877);
-INSERT INTO presidents VALUES (19, "Rutherford B. Hayes", "Ohio", "Rupublican", 1881);
+INSERT INTO presidents VALUES (19, "Rutherford B. Hayes", "Ohio", "Republican", 1881);
 INSERT INTO presidents VALUES (20, "James A. Garfield", "Ohio", "Republican", 1881);
 INSERT INTO presidents VALUES (21, "Chester A. Arthur", "Vermont", "Republican", 1885);
 INSERT INTO presidents VALUES (22, "Grover Cleveland", "New Jersey", "Democratic", 1889);
@@ -99,3 +99,7 @@ INSERT INTO vice_presidents VALUES (46, "Dick Cheney", "Nebraska", "George W. Bu
 INSERT INTO vice_presidents VALUES (47, "Joe Biden", "Pennsylvania", "Barack Obama");
 INSERT INTO vice_presidents VALUES (48, "Mike Pence", "Indiana", "Donald Trump");
 INSERT INTO vice_presidents VALUES (49, "Kamala Harris", "California", "Joe Biden");
+
+Join the tables to match each vice president with the president they served under.
+
+SELECT presidents.name AS president, vice_presidents.name AS vice_president FROM presidents JOIN vice_presidents ON presidents.name = vice_presidents.served_under;
